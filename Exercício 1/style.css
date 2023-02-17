@@ -1,9 +1,10 @@
 * {box-sizing: border-box;}
 
 body {
-    background-color: grey;
+    background-color: gray;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://wallpapercave.com/wp/T9DedLv.jpg);
 }
 
 /* Mobile-First */
@@ -19,13 +20,16 @@ div {
     margin:5%;  
 }
 
-img {
+div img {
+    height: 45%;
     width: 45%;
-    margin-left: 25%;    
+    margin-left: 25%;
 }
 
+p{align-items: flex-start;}
+
 /* Computer  */
-@media (min-width: 912px) {
+@media (min-width: 1000px) {
     section {
         display: flex ;
     }
@@ -33,6 +37,9 @@ img {
         margin-top: 5%;
         margin-bottom:0;
     }
+    p{
+        padding-bottom: 15px;
+    } 
 }
 
 
